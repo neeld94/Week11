@@ -1,4 +1,4 @@
-# A simple introduction to JavaScript and Local Storage
+# A simple introduction to JavaScript and Local Storage!
 
 *Clone* this repository using `git clone https://github.com/CTEC3905/javascript_02_localstorage` instead of just downloading it. Before you push, you will need to change the GIT remote to your own repository for this code with the following command: `git remote set-url origin [YOUR_REPO_URL_HERE]`.
 
