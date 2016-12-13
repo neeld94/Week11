@@ -5,6 +5,8 @@
   let userName = document.getElementById("user-name"); 
   let nameStored = localStorage.name;
   console.log(`Name on page load: ${nameStored}`);
+  // creating button variable to use below for clear local storage function
+  let ClearButton = document.getElementById("ClrButton");
   
   if(nameStored) {
     // If there's a name in localStorage, use it:
@@ -40,5 +42,8 @@
     getName.addEventListener("submit", PerformGreeting);
     event.preventDefault();
   }
+  
+  // Adding clear button for clearing local storage 
+  ClearButton.addEventListener("click", localStorage.clear());
 
 }());
